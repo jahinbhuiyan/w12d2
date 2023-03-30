@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 5% 15px 5%;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgb(39, 4, 71);
+  border-radius: 15px;
+}
+
+nav a {
+  background-color: rgb(93, 64, 122);
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
+}
+
+nav a:hover {
+  transform: scale(1.03);
+  outline: 2px solid rgb(206, 181, 229);
+}
+
+
+.dropdown {
+  background-color: rgb(93, 64, 122);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.dropdown li {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.drop-content button {
+  width: 50%;
+}

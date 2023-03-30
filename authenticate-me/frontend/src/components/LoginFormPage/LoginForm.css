@@ -1,0 +1,50 @@
+.errors-container {
+  font-weight: bold;
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.errors-container li {
+  margin: 0 auto 10px auto;
+}
+
+.login {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5% 10%;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.login-input {
+  width: 20%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+
+button {
+  margin: auto;
+  width: 20%;
+  background-color: rgb(26, 123, 233);
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.85;
+  border-right: 2px solid rgb(68, 68, 68);
+  border-bottom: 2px solid rgb(68, 68, 68);
+}
